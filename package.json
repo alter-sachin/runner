@@ -1,0 +1,17 @@
+{
+  "name": "runner-api",
+  "version": "1.0.0",
+  "description": "Get started for logistics",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "jshint --exclude node_modules .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sachin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "geocoder": "^0.2.2"
+  }
+}
